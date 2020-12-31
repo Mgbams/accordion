@@ -1,18 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import SingleAccordion from "./SingleAccordion";
 
 const AccordionLists = () => {
-  const showAccordion = () => {
-    console.log("show");
-  };
+  const [isAccordionOpen, setIsAccordionOpen] = useState(false);
 
-  const hideAccordion = () => {
+  const toggleAccordion = () => {
     console.log("show");
+    setIsAccordionOpen(!isAccordionOpen);
   };
 
   return (
     <div>
-      <SingleAccordion />
+      <SingleAccordion
+        isAccordionOpen={isAccordionOpen}
+        toggleAccordion={toggleAccordion}
+      />
     </div>
   );
 };
