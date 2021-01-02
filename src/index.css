@@ -105,20 +105,15 @@ strong {
   align-items: center;
 }
 
-#accordion-wrapper {
-  width: 65%;
-  /* border: 1px solid yellow; */
-}
 .accordion-inner-wrapper {
   width: "90%";
-  /* border: 1px solid green; */
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .title-and-button {
-  width: 80%;
-  /* border: 1px solid pink; */
+  width: 90%;
 }
 
 .button-wrapper {
@@ -126,11 +121,29 @@ strong {
   /* border: 1px solid blue; */
 }
 
-#main-container {
-  /* border: 1px solid green; */
-  background-color: white;
-  width: 70vw;
+.accordion-lists-wrapper {
   display: flex;
-  justify-content: space-between;
-  padding: 50px 30px;
+  background-color: white;
+  margin-top: 150px;
+  width: 60vw;
+  margin-bottom: 60px;
+}
+
+#questions-and-answers-title {
+  width: 30%;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+#reviews-container {
+  width: 65%;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+#accordion-wrapper {
+  border: 2px ridge gray;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-left: 10px;
 }
