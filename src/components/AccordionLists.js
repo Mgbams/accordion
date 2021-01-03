@@ -23,7 +23,7 @@ const AccordionLists = () => {
   return (
     <div className="accordion-lists-wrapper">
       <div id="questions-and-answers-title">
-        <h2>Questions And Answers About Login</h2>
+        <h2 style={{ fontSize: "32px" }}>Questions And Answers About Login</h2>
       </div>
       <div id="reviews-container">
         {data.map((review) => {
